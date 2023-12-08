@@ -1,0 +1,87 @@
+body {
+    font-family: fantasy;
+    text-align: center;
+    color: black;
+    background-color: darkgray;
+    fill-opacity: 0.5;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content-box {
+    width: 1173px;
+    height: 633px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    margin: 0 auto;
+}
+
+#info-box {
+    width: 400px;
+    height: 633px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#board {
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+#board2 {
+    background-color: black;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+#board3 {
+    width: 402px;
+    height: 348px;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 0px;
+    overflow-y: auto;
+    margin-left: 0px;
+}
+
+#desc-box {
+    width: 402px;
+    height: 345px;
+    background-color: black;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
+    margin-left: 4px;
+    color: black;
+    text-align: center;
+}
+
+#crew-select {
+    background-size: cover;
+    background-color: rebeccapurple;
+    border: 2px solid darkslateblue;
+    border-radius: 4px;
+    width: 744px;
+    height: 125px;
+    top: 625px;
+    margin: 0 auto;
+    margin-top: 1px;
+    margin-left: 2px;
+    padding: 1px;
+    font-size: 18px;
+    overflow-y: auto;
+    color: black;
+    text-align: center;
+}
+
+#overlay {
+    position: relative;
+}
